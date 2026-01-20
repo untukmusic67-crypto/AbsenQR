@@ -58,27 +58,3 @@ Untuk Pegawai
     Scan QR Code yang ditampilkan Admin.
         Jika kamera error: Salin Token String dari dashboard admin dan tempel di kolom input.
     Klik Kirim Absen.
-
-📂 Struktur Project
- 
-
-/htdocs
-├── api/                    # Backend Logic Endpoints
-│   ├── admin_login.php
-│   ├── admin_generate_qr.php
-│   ├── employee_submit.php
-│   ├── export_excel.php
-│   └── ...
-├── assets/                 # CSS & Static Files
-│   └── style.css
-├── includes/               # PHP Helper Classes
-│   └── QrToken.php
-├── pages/                  # Frontend UI
-│   ├── login.php
-│   ├── dashboard_admin.php
-│   ├── attendance.php
-│   └── audit.php
-├── uploads/                # Folder Foto Absensi (Auto-create)
-├── config.php              # Konfigurasi DB (Auto-generated)
-├── index.php               # Router Utama
-└── install.php             # Installer 
