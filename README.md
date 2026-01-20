@@ -8,7 +8,6 @@ Sistem absensi berbasis web yang ringan, aman, dan mudah digunakan. Dibuat denga
     Anti-Fraud (Burn-After-Use): Satu QR hanya berlaku untuk satu orang dan satu kali pakai.
     Audit Visual: Pegawai mengambil foto selfie, Admin melakukan validasi manual.
     WebRTC Camera: Pengambilan foto langsung dari browser (tanpa upload file manual).
-    Export to Excel: Download laporan absensi harian dalam format CSV.
     Mobile First: UI didesain responsif untuk HP.
     No Master Data Pegawai: Sistem bekerja tanpa perlu input data pegawai satu per satu (Input Nama/NIK saat absen).
     Keamanan: Validasi Token (HMAC SHA256), Proteksi SQL Injection (PDO), dan Login Admin.
@@ -48,7 +47,6 @@ Untuk Admin
     Klik Generate QR Baru. QR akan muncul (atau salin Token String jika kamera error).
     Tampilkan QR Code di layar (TV/Proyektor) untuk pegawai.
     Masuk ke menu Audit untuk memverifikasi kehadiran pegawai.
-    Klik Download Excel untuk rekapitulasi gaji.
 
 Untuk Pegawai
 
